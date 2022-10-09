@@ -10,7 +10,7 @@
 
 **Email**: dmitry.usov@yahoo.com
 
-**Telegram**: [@DUsov](t.me/DUsov)
+**Telegram**: [@DUsov](https://t.me/DUsov)
 ___
 
 ## Summary
