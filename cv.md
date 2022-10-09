@@ -14,7 +14,10 @@
 ___
 
 ## Summary
-As an analyst in the retail industry, I often use programming to extract, transform, and load data. I am passionate about coding. So I want to shift my career to software engineer with a focus on web development. More specifically, create applications using Angular framework.
+As an analyst in the retail industry, I often use programming to extract, transform, and load data. At some point, I become passionate about coding.  
+
+So I intend to shift my career to software engineer with a focus on web development. More specifically, create applications using the Angular framework.  
+
 To achieve my goal, I start taking Javascript/Front-end Mentoring Program at RS School (as of October 2022).
 
 
