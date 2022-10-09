@@ -50,11 +50,11 @@ ___
 ## Courses
 - M121: The MongoDB Aggregation Framework by [MongoDB University](https://university.mongodb.com/course_completion/8bbc243d-9a16-4d2d-9734-01db358cf39a?utm_source=copy&utm_medium=social&utm_campaign=university_social_sharing)
 - From Data to Insights with Google Cloud by [Google Cloud on Coursera](https://coursera.org/share/67363dce1ab7f1db9a04c731e45bae19)
-- Agile with Atlasian Jira [on Coursera](https://coursera.org/share/846435dab1929adb6376cdbc050f778f)
-Applied Data Science with Python by [University of Michigan on Coursera](https://coursera.org/share/6453309e937fa96ca958f5a148633c51)
+- Agile with Atlasian Jira [on Coursera](https://coursera.org/share/846435dab1929adb6376cdbc050f778f)  
+- Applied Data Science with Python by [University of Michigan on Coursera](https://coursera.org/share/6453309e937fa96ca958f5a148633c51)
 
 ___
 
 ## Languages
-- English - 
+- English - C1 ADVANCED according to [www.efset.org](https://www.efset.org/quick-check/)
 - Russian - native
