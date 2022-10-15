@@ -20,9 +20,14 @@
 }
 .column-right {
     width: 70%;
+    margin-top: 40px;
     margin-right: 10px;
     padding-right: 10px;
 }
+a {
+   text-decoration: none;
+}
+
 h3 {
     text-align: center;
     text-transform: uppercase;
@@ -31,16 +36,16 @@ h3 {
     list-style: none;
 }
 .contacts li{
-    display: inline;
-    vertical-align: middle;
+    display: list-item;
+    vertical-align: baseline;
 }
 .contacts li img {
     vertical-align: middle;
-
 }
+
 footer {
     width: 1024px;
-    margin: 0px auto;
+    margin: 20px auto;
     display: flex;
 
     justify-content: space-between;
@@ -52,10 +57,9 @@ footer a {
 }
 footer img {
     vertical-align: middle;
+    margin-right: 5px;
 }
-.footer-date {
 
-}
 .footer-rs {
     margin-top: 10px;
 
@@ -66,7 +70,9 @@ footer img {
 
 h2 {
     padding-left: 20px;
-    border-bottom: 1px solid #000000;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-bottom: 1px solid;
 }
 
 header {
@@ -83,4 +89,8 @@ header img {
     border: 1px solid gray;
     border-radius: 50%;
     filter: drop-shadow(8px 8px 10px gray);
+}
+
+pre{
+    background-color: rgba(139, 139, 139, 0.1);
 }
