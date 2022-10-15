@@ -25,7 +25,7 @@
                     </ul>
                     </section>
                     <h3>Skills</h3>
-                    <ul style="padding-left: 120px">
+                    <ul class="ul-skills">
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>SQL</li>
@@ -38,7 +38,7 @@
                 <main>
                     <article>
                         <h2>Summary</h2>
-                        <p>As an analyst in the retail industry, I often use programming to extract, transform, and load data. At some point, I become passionate about coding.</p>  
+                        <p>As an analyst in the retail industry, I often use programming to extract, transform, and load data. At some point, I become passionate about coding.</p>
                         <p>So I intend to shift my career to software engineer with a focus on web development. More specifically, my dream is to create applications using the Angular framework.</p>
                         <p>To achieve my goal, I start taking Javascript/Front-end Mentoring Program at RS School (as of October, 2022).</p>
                     </article>
@@ -47,7 +47,7 @@
                         <ul>
                             <li>M121: The MongoDB Aggregation Framework by <a href="https://university.mongodb.com/course_completion/8bbc243d-9a16-4d2d-9734-01db358cf39a?utm_source=copy&utm_medium=social&utm_campaign=university_social_sharing">MongoDB University</a></li>
                             <li>From Data to Insights with Google Cloud by <a href="https://coursera.org/share/67363dce1ab7f1db9a04c731e45bae19">Google Cloud on Coursera</a></li>
-                            <li> Agile with Atlasian Jira <a href="https://coursera.org/share/846435dab1929adb6376cdbc050f778f">on Coursera</a></li>
+                            <li>Agile with Atlasian Jira <a href="https://coursera.org/share/846435dab1929adb6376cdbc050f778f">on Coursera</a></li>
                             <li>Applied Data Science with Python by <a href="https://coursera.org/share/6453309e937fa96ca958f5a148633c51">University of Michigan on Coursera</a></li>
                         </ul>
                     </section>
@@ -69,16 +69,16 @@
                         <p>JavaScript function checks whether a string contains a given character (case sensitive).</p>
                         <pre>
                         <code>
-            const hasChar = (text, char) => {
+            const hasChar = (text, char) =&gt; {
                 let idx = 0;
                 while (idx &lt; text.length)
                 {
                     if (text[idx++] === char)
                     {
-                        return true; <span style="color: green;">// yes, it has</span>
+                        return true; <span class="comments">// yes, it has</span>
                     }
                 }
-                return false; <span style="color: green;">// no, it hasn't</span>
+                return false; <span class="comments">// no, it hasn't</span>
             }
                         </code>
                         </pre>
