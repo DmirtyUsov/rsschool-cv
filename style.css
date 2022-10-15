@@ -94,3 +94,9 @@ header img {
 pre{
     background-color: rgba(139, 139, 139, 0.1);
 }
+.ul-skills {
+    padding-left: 120px;
+}
+.comments {
+    color: green;
+}
