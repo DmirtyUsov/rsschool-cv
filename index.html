@@ -7,66 +7,74 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-    <div class="container">
-        <div class="columns">
-            <div class="column-left">
-                <header>
-                    <h1>Dima Usov</h1>
-                    <h2>Junior Frontend Developer</h2>
-                    <img src="images/avatar.png" alt="Candidate Photo" width="150">
-                </header>
-                <nav>
+        <div class="container">
+            <div class="columns">
+                <!-- Left side -->
+                <div class="column-left">
+                    <header>
+                        <h1>Dima Usov</h1>
+                        <h2>Junior Frontend Developer</h2>
+                        <img src="images/avatar.png" alt="Candidate Photo" width="150">
+                    </header>
                     <section class="contacts">
-                    <h3>Contacts</h3>
-                    <ul>
-                        <li><img src="images/Tilda_Icons_26snw_mail13.svg" alt="Email Icon" width="40"><a href="mailto:dmitry.usov@yahoo.com">dmitry.usov@yahoo.com</a></li>
-                        <li><img src="images/Tilda_Icons_26snw_telegram.svg" alt="Telegram Icon" width="40"><a href="https://t.me/DUsov">@DUsov</a></li>
-                    </ul>
-                    </section>
-                    <h3>Skills</h3>
-                    <ul class="ul-skills">
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>SQL</li>
-                        <li>NoSQL</li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="column-right">
-                <main>
-                    <article>
-                        <h2>Summary</h2>
-                        <p>As an analyst in the retail industry, I often use programming to extract, transform, and load data. At some point, I become passionate about coding.</p>
-                        <p>So I intend to shift my career to software engineer with a focus on web development. More specifically, my dream is to create applications using the Angular framework.</p>
-                        <p>To achieve my goal, I start taking Javascript/Front-end Mentoring Program at RS School (as of October, 2022).</p>
-                    </article>
-                    <section>
-                        <h2>Education</h2>
+                        <h2 id="nav-contacts">Contacts</h2>
                         <ul>
-                            <li>M121: The MongoDB Aggregation Framework by <a href="https://university.mongodb.com/course_completion/8bbc243d-9a16-4d2d-9734-01db358cf39a?utm_source=copy&utm_medium=social&utm_campaign=university_social_sharing">MongoDB University</a></li>
-                            <li>From Data to Insights with Google Cloud by <a href="https://coursera.org/share/67363dce1ab7f1db9a04c731e45bae19">Google Cloud on Coursera</a></li>
-                            <li>Agile with Atlasian Jira <a href="https://coursera.org/share/846435dab1929adb6376cdbc050f778f">on Coursera</a></li>
-                            <li>Applied Data Science with Python by <a href="https://coursera.org/share/6453309e937fa96ca958f5a148633c51">University of Michigan on Coursera</a></li>
+                            <li><img src="images/Tilda_Icons_26snw_mail13.svg" alt="Email Icon" width="40"><a href="mailto:dmitry.usov@yahoo.com">dmitry.usov@yahoo.com</a></li>
+                            <li><img src="images/Tilda_Icons_26snw_telegram.svg" alt="Telegram Icon" width="40"><a href="https://t.me/DUsov">@DUsov</a></li>
                         </ul>
                     </section>
-                    <section>
-                        <h2>Projects</h2>
-                        <ul>
-                            <li><a href="https://DmirtyUsov.github.io/rsschool-cv/">Curriculum Vitae</a></li>
+                    <section class="skills">
+                        <h2 id="nav-skills">Skills</h2>
+                        <ul class="ul-skills">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>SQL</li>
+                            <li>NoSQL</li>
                         </ul>
                     </section>
-                    <section>
-                        <h2>Languages</h2>
+                </div>
+                <!-- Right side -->
+                <div class="column-right">
+                    <nav>
                         <ul>
-                            <li>English - C1 Advanced</li>
-                            <li>Russian - native</li>
+                            <li>|<a href="#nav-contacts">Contacts</a></li>
+                            <li>|<a href="#nav-skills">Skills</a></li>
                         </ul>
-                    </section>
-                    <section>
-                        <h2>Code Example</h2>
-                        <p>JavaScript function checks whether a string contains a given character (case sensitive).</p>
-                        <pre>
-                        <code>
+                    </nav>
+                    <main>
+                        <article>
+                            <h2>Summary</h2>
+                            <p>As an analyst in the retail industry, I often use programming to extract, transform, and load data. At some point, I become passionate about coding.</p>
+                            <p>So I intend to shift my career to software engineer with a focus on web development. More specifically, my dream is to create applications using the Angular framework.</p>
+                            <p>To achieve my goal, I start taking Javascript/Front-end Mentoring Program at RS School (as of October, 2022).</p>
+                        </article>
+                        <section>
+                            <h2>Education</h2>
+                            <ul>
+                                <li>M121: The MongoDB Aggregation Framework by <a href="https://university.mongodb.com/course_completion/8bbc243d-9a16-4d2d-9734-01db358cf39a?utm_source=copy&utm_medium=social&utm_campaign=university_social_sharing">MongoDB University</a></li>
+                                <li>From Data to Insights with Google Cloud by <a href="https://coursera.org/share/67363dce1ab7f1db9a04c731e45bae19">Google Cloud on Coursera</a></li>
+                                <li>Agile with Atlasian Jira <a href="https://coursera.org/share/846435dab1929adb6376cdbc050f778f">on Coursera</a></li>
+                                <li>Applied Data Science with Python by <a href="https://coursera.org/share/6453309e937fa96ca958f5a148633c51">University of Michigan on Coursera</a></li>
+                            </ul>
+                        </section>
+                        <section>
+                            <h2>Projects</h2>
+                            <ul>
+                                <li><a href="https://DmirtyUsov.github.io/rsschool-cv/">Curriculum Vitae</a></li>
+                            </ul>
+                        </section>
+                        <section>
+                            <h2>Languages</h2>
+                            <ul>
+                                <li>English - C1 Advanced</li>
+                                <li>Russian - native</li>
+                            </ul>
+                        </section>
+                        <section>
+                            <h2>Code Example</h2>
+                            <p>JavaScript function checks whether a string contains a given character (case sensitive).</p>
+                            <pre>
+                            <code>
             const hasChar = (text, char) =&gt; {
                 let idx = 0;
                 while (idx &lt; text.length)
@@ -78,19 +86,19 @@
                 }
                 return false; <span class="comments">// no, it hasn't</span>
             }
-                        </code>
-                        </pre>
-                    </section>
-                </main>
+                            </code>
+                            </pre>
+                        </section>
+                    </main>
+                </div>
             </div>
         </div>
-    </div>
-    <footer>
-        <div>
-            <p>October, 2022</p>
-        </div>
-        <div class="footer-git"><a class="inside-footer" href="https://github.com/DmirtyUsov"><img src="images/Tilda_Icons_26sn_gethub.svg" alt="GitHub Logo" height="30">Link to My GitHub</a></div>
-        <div class="footer-rs"><a href="https://rs.school/js-en/"><img src="images/rs_school_js.svg" alt="RS School Logo" width="80"></a></div>
-    </footer>
+        <footer>
+            <div>
+                <p>October, 2022</p>
+            </div>
+            <div class="footer-git"><a class="inside-footer" href="https://github.com/DmirtyUsov"><img src="images/Tilda_Icons_26sn_gethub.svg" alt="GitHub Logo" height="30">Link to My GitHub</a></div>
+            <div class="footer-rs"><a href="https://rs.school/js-en/"><img src="images/rs_school_js.svg" alt="RS School Logo" width="80"></a></div>
+        </footer>
     </body>
 </html>
