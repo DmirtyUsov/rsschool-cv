@@ -41,3 +41,6 @@ Query which counts trip between 2019/01/01 and 2019/03/31 for dispatching_base_n
 ## Education
 Disney University, Los Angeles, CA  
 Bachelor of Arts in Happiness, Bringing Joy and Diplomacy, May, 2000 GPA: 3.5
+
+## Languages
+Fluent in all languages 
